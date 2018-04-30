@@ -1,0 +1,45 @@
+/*  Created on : 29/04/2018, 09:01:53 PM
+    Author     : ADBA*/
+*{  margin: 0;
+    padding: 0;
+}
+
+body{ background: #e6e6e6;}
+
+header, .main, footer{
+    /*width: 90%;*/
+    max-width: 70%;
+    margin: 20px auto; 
+}
+
+header nav{
+    background: #528FD5;
+    overflow: hidden; 
+}
+
+.main .articles {
+    width: 60%;
+    margin-right: 2%;
+    float: left;
+}
+
+.main .articles article {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+aside {
+    width: 30%;
+    background: #ff8000;
+    float: left;
+    padding: 2%;
+} 
+
+footer{
+    clear:both;
+    background:#000;
+    color:#fff;
+    padding:10px 0px;
+    text-align:center;
+}
